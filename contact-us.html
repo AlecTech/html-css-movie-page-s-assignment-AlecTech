@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>contact form</title>
+    <style>
+        body{
+            background-image: url(img/car.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+        }
+    </style>
+    <!-- <meta name="author" content="Oleg Eremeev">
+    <title>About Us</title> -->
+    <!-- <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+        </script> -->
+        <link rel="stylesheet" href="css/styles.css">
+        
+</head>
+  
+<body><!--style="margin:150px;padding:0"--><!--manual adjustment of each page margin-->
+ 
+    <link href="contact-form.css" rel="stylesheet">
+
+    <header>
+       <!--<img src="img/company-logo.jpg" alt="Company Logo" title="Company Logo"/>--> 
+         <nav>
+             <h2 class="screen-reader-text">
+                 Navigation</h2>
+             <ul>
+                <li><a href="index.html"> Home></a></li>
+                <li><a href="back-to-the-future.html"> Back To The Future></a></li>
+                <li><a href="october-sky.html"> October Sky></a></li>
+                <li><a href="contact-us.html"> Contact Us></a></li>
+            </ul>
+         </nav>
+     </header>
+
+    <main>
+            <!-- <h1>About Us</h1>
+            <h2>Our Goals</h2>
+            <p>We like to cook</p>
+            <p>We like to cook</p>
+            <p>We like to cook</p>
+            <h2>Safety First</h2>
+            <p>Faster not better</p>
+            <p>Faster not better</p>
+            <p>Faster not better</p>
+            <img src="img/october-sky.jpg" alt="Poster of the movie" title="October sky"/>-->
+    </main>
+    <div class="fcf-body">
+
+        <div id="fcf-form">
+        <h3 class="fcf-h3">Contact us</h3>
+    
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
+    
+            <div class="fcf-credit" id="fcf-credit">
+            Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
+            </div>
+    
+        </form>
+        </div>
+    
+    </div>
+
+    <footer>
+        <p>&copy; AlecTech</p>
+        <!-- <img src="img/giphy.gif" alt="Food" title="Food"/> -->
+    </footer>
+</body> 
+</html>
